@@ -1,0 +1,18 @@
+version: 1
+application: Олимпус
+storage:
+  content: SQLite/D1 records
+  history: SQLite/D1 revisions
+  progress: SQLite/D1 progress, per verified MAX id or guest cookie
+  media: R2 or persistent local emulation
+import:
+  path: content/{olympiads,topics,lessons,tasks,mock-tests}/imports/*.json
+  timing: next build and first API request
+  matching: stable id
+  conflict: latest changed source or published admin version wins
+api:
+  specification: openapi.yaml
+external:
+  max: https://dev.max.ru/
+  execution: configurable Judge0 CE via runner/server.mjs
+secrets: [BOT_TOKEN, ADMIN_PASSWORD, RUNNER_TOKEN, JUDGE0_AUTH_TOKEN]

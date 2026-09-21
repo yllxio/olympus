@@ -1,0 +1,650 @@
+[
+  {
+    "id": "math-4-01",
+    "title": "Чётность и нечётность",
+    "grade": 4,
+    "subject": "math",
+    "order": 1,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-02",
+    "title": "Закономерности и ряды",
+    "grade": 4,
+    "subject": "math",
+    "order": 2,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-03",
+    "title": "Логические задачи",
+    "grade": 4,
+    "subject": "math",
+    "order": 3,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-04",
+    "title": "Перебор вариантов",
+    "grade": 4,
+    "subject": "math",
+    "order": 4,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-05",
+    "title": "Сумма и разность",
+    "grade": 4,
+    "subject": "math",
+    "order": 5,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-06",
+    "title": "Задачи на движение",
+    "grade": 4,
+    "subject": "math",
+    "order": 6,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-07",
+    "title": "Часы и календарь",
+    "grade": 4,
+    "subject": "math",
+    "order": 7,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-08",
+    "title": "Периметр и площадь",
+    "grade": 4,
+    "subject": "math",
+    "order": 8,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-09",
+    "title": "Разрезания фигур",
+    "grade": 4,
+    "subject": "math",
+    "order": 9,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-10",
+    "title": "Весы и взвешивания",
+    "grade": 4,
+    "subject": "math",
+    "order": 10,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-11",
+    "title": "Игры и стратегии",
+    "grade": 4,
+    "subject": "math",
+    "order": 11,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-4-12",
+    "title": "Ребусы и цифры",
+    "grade": 4,
+    "subject": "math",
+    "order": 12,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-01",
+    "title": "Алгоритм и исполнитель",
+    "grade": 4,
+    "subject": "info",
+    "order": 1,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-02",
+    "title": "Ввод и вывод",
+    "grade": 4,
+    "subject": "info",
+    "order": 2,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-03",
+    "title": "Переменные",
+    "grade": 4,
+    "subject": "info",
+    "order": 3,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-04",
+    "title": "Арифметика в программе",
+    "grade": 4,
+    "subject": "info",
+    "order": 4,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-05",
+    "title": "Условия",
+    "grade": 4,
+    "subject": "info",
+    "order": 5,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-06",
+    "title": "Повторение действий",
+    "grade": 4,
+    "subject": "info",
+    "order": 6,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-07",
+    "title": "Счётчики",
+    "grade": 4,
+    "subject": "info",
+    "order": 7,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-08",
+    "title": "Числа и цифры",
+    "grade": 4,
+    "subject": "info",
+    "order": 8,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-09",
+    "title": "Строки",
+    "grade": 4,
+    "subject": "info",
+    "order": 9,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-10",
+    "title": "Списки данных",
+    "grade": 4,
+    "subject": "info",
+    "order": 10,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-11",
+    "title": "Поиск наибольшего",
+    "grade": 4,
+    "subject": "info",
+    "order": 11,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-4-12",
+    "title": "Проверка программы",
+    "grade": 4,
+    "subject": "info",
+    "order": 12,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-01",
+    "title": "Делимость чисел",
+    "grade": 5,
+    "subject": "math",
+    "order": 1,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-02",
+    "title": "Остатки от деления",
+    "grade": 5,
+    "subject": "math",
+    "order": 2,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-03",
+    "title": "Простые числа",
+    "grade": 5,
+    "subject": "math",
+    "order": 3,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-04",
+    "title": "Дроби в задачах",
+    "grade": 5,
+    "subject": "math",
+    "order": 4,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-05",
+    "title": "Проценты",
+    "grade": 5,
+    "subject": "math",
+    "order": 5,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-06",
+    "title": "Комбинаторика",
+    "grade": 5,
+    "subject": "math",
+    "order": 6,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-07",
+    "title": "Принцип Дирихле",
+    "grade": 5,
+    "subject": "math",
+    "order": 7,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-08",
+    "title": "Геометрия на клетках",
+    "grade": 5,
+    "subject": "math",
+    "order": 8,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-09",
+    "title": "Движение и встречи",
+    "grade": 5,
+    "subject": "math",
+    "order": 9,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-10",
+    "title": "Работа и производительность",
+    "grade": 5,
+    "subject": "math",
+    "order": 10,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-11",
+    "title": "Инварианты",
+    "grade": 5,
+    "subject": "math",
+    "order": 11,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-5-12",
+    "title": "Логика и доказательства",
+    "grade": 5,
+    "subject": "math",
+    "order": 12,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-01",
+    "title": "Ввод нескольких значений",
+    "grade": 5,
+    "subject": "info",
+    "order": 1,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-02",
+    "title": "Целочисленное деление",
+    "grade": 5,
+    "subject": "info",
+    "order": 2,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-03",
+    "title": "Сложные условия",
+    "grade": 5,
+    "subject": "info",
+    "order": 3,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-04",
+    "title": "Цикл for",
+    "grade": 5,
+    "subject": "info",
+    "order": 4,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-05",
+    "title": "Цикл while",
+    "grade": 5,
+    "subject": "info",
+    "order": 5,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-06",
+    "title": "Суммы и произведения",
+    "grade": 5,
+    "subject": "info",
+    "order": 6,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-07",
+    "title": "Обработка цифр числа",
+    "grade": 5,
+    "subject": "info",
+    "order": 7,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-08",
+    "title": "Строки и символы",
+    "grade": 5,
+    "subject": "info",
+    "order": 8,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-09",
+    "title": "Массивы",
+    "grade": 5,
+    "subject": "info",
+    "order": 9,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-10",
+    "title": "Линейный поиск",
+    "grade": 5,
+    "subject": "info",
+    "order": 10,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-11",
+    "title": "Минимум и максимум",
+    "grade": 5,
+    "subject": "info",
+    "order": 11,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-5-12",
+    "title": "Граничные случаи",
+    "grade": 5,
+    "subject": "info",
+    "order": 12,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-01",
+    "title": "НОД и НОК",
+    "grade": 6,
+    "subject": "math",
+    "order": 1,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-02",
+    "title": "Делимость и остатки",
+    "grade": 6,
+    "subject": "math",
+    "order": 2,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-03",
+    "title": "Последняя цифра степени",
+    "grade": 6,
+    "subject": "math",
+    "order": 3,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-04",
+    "title": "Отношения и пропорции",
+    "grade": 6,
+    "subject": "math",
+    "order": 4,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-05",
+    "title": "Проценты и изменения",
+    "grade": 6,
+    "subject": "math",
+    "order": 5,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-06",
+    "title": "Подсчёт вариантов",
+    "grade": 6,
+    "subject": "math",
+    "order": 6,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-07",
+    "title": "Принцип Дирихле: оценка",
+    "grade": 6,
+    "subject": "math",
+    "order": 7,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-08",
+    "title": "Площади и подобные фигуры",
+    "grade": 6,
+    "subject": "math",
+    "order": 8,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-09",
+    "title": "Относительное движение",
+    "grade": 6,
+    "subject": "math",
+    "order": 9,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-10",
+    "title": "Уравнения в задачах",
+    "grade": 6,
+    "subject": "math",
+    "order": 10,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-11",
+    "title": "Инварианты и раскраски",
+    "grade": 6,
+    "subject": "math",
+    "order": 11,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "math-6-12",
+    "title": "Оценка и пример",
+    "grade": 6,
+    "subject": "math",
+    "order": 12,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-01",
+    "title": "Оценка сложности",
+    "grade": 6,
+    "subject": "info",
+    "order": 1,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-02",
+    "title": "Делители числа",
+    "grade": 6,
+    "subject": "info",
+    "order": 2,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-03",
+    "title": "Алгоритм Евклида",
+    "grade": 6,
+    "subject": "info",
+    "order": 3,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-04",
+    "title": "Вложенные циклы",
+    "grade": 6,
+    "subject": "info",
+    "order": 4,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-05",
+    "title": "Префиксные суммы",
+    "grade": 6,
+    "subject": "info",
+    "order": 5,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-06",
+    "title": "Частоты элементов",
+    "grade": 6,
+    "subject": "info",
+    "order": 6,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-07",
+    "title": "Обработка строк",
+    "grade": 6,
+    "subject": "info",
+    "order": 7,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-08",
+    "title": "Сортировка",
+    "grade": 6,
+    "subject": "info",
+    "order": 8,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-09",
+    "title": "Двоичный поиск",
+    "grade": 6,
+    "subject": "info",
+    "order": 9,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-10",
+    "title": "Системы счисления",
+    "grade": 6,
+    "subject": "info",
+    "order": 10,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-11",
+    "title": "Координаты и сетки",
+    "grade": 6,
+    "subject": "info",
+    "order": 11,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  },
+  {
+    "id": "info-6-12",
+    "title": "Полный перебор",
+    "grade": 6,
+    "subject": "info",
+    "order": 12,
+    "description": "Теория и пять заданий для самостоятельной подготовки",
+    "demo": false
+  }
+]

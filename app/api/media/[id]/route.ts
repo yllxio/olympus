@@ -1,0 +1,2 @@
+import {settings} from '@/lib/server';
+export async function GET(req:Request,{params}:any){const {id}=await params;const obj=await settings().BUCKET?.get(id);if(!obj)return new Response('Не найдено',{status:404});return new Response(obj.body,{headers:{'Content-Type':obj.httpMetadata?.contentType||'application/octet-stream','X-Content-Type-Options':'nosniff','Cache-Control':'public,max-age=86400'}});}

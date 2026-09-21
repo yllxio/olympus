@@ -1,0 +1,21 @@
+name: olympus
+services:
+  web:
+    build: .
+    ports: ["3000:3000"]
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - olympus_data:/app/.wrangler/state
+    restart: unless-stopped
+  runner:
+    profiles: ["code"]
+    build: ./runner
+    env_file: .env
+    restart: unless-stopped
+    read_only: true
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+volumes:
+  olympus_data:

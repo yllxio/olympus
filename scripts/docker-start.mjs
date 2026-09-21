@@ -1,0 +1,6 @@
+import fs from 'node:fs';import {spawnSync,spawn} from 'node:child_process';
+const dataDir=process.env.DATA_DIR||'.wrangler/state';fs.mkdirSync(dataDir,{recursive:true});
+const config='dist/server/wrangler.json',c=JSON.parse(fs.readFileSync(config));
+c.vars=Object.fromEntries(['DEMO_MODE','ADMIN_PASSWORD','BOT_TOKEN','RUNNER_URL','RUNNER_TOKEN'].map(k=>[k,process.env[k]||'']));if(!c.vars.DEMO_MODE)c.vars.DEMO_MODE='true';fs.writeFileSync(config,JSON.stringify(c));
+for(const f of fs.readdirSync('drizzle').filter(f=>f.endsWith('.sql')).sort()){if(fs.existsSync(dataDir+'/.migrated-'+f))continue;const r=spawnSync('node',['node_modules/wrangler/bin/wrangler.js','d1','execute','DB','--local','--persist-to',dataDir,'--config',config,'--file','drizzle/'+f],{stdio:'inherit'});if(r.status&& !fs.existsSync(dataDir+'/.migrated-'+f))process.exit(r.status);fs.writeFileSync(dataDir+'/.migrated-'+f,'ok');}
+const proc=spawn('node',['node_modules/wrangler/bin/wrangler.js','dev','--config',config,'--local','--persist-to',dataDir,'--ip',process.env.BIND_HOST||'0.0.0.0','--port',process.env.PORT||'3000','--inspector-port','0'],{stdio:'inherit'});for(const sig of ['SIGTERM','SIGINT'])process.on(sig,()=>proc.kill(sig));proc.on('exit',code=>process.exit(code??0));
